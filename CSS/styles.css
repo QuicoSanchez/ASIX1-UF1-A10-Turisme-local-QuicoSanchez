@@ -1,0 +1,183 @@
+* {
+    margin: 0%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tituloimg {
+    height: 400px;
+    width: 400px;
+}
+
+ul {
+    list-style: none;
+}
+
+.imgengaleria {
+    height: 150px;
+    justify-content: center;
+}
+
+.Relleno {
+    margin-top: 50px;
+}
+
+.header {
+    background-image: url(../IMG/Londres.jpg);
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.column-M {
+    width: 35.33%;
+    float: left;
+}
+
+.column-I {
+    width: 29.33%;
+    float: left;
+}
+
+.column-3 {
+    width: 34.33%;
+    float: left;
+}
+
+.titulos {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+
+.Card {
+    height: 390px;
+}
+
+.Card:hover {
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.342);
+}
+
+.conjunto {
+    padding-left: 13px;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.textocon {
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.imga {
+    margin-top: 50px;
+}
+
+.Card-1 {
+    height: 240px;
+}
+
+.Card-1:hover {
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.342);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imgeng {
+    height: 100px;
+    justify-content: center;
+}
+
+.textocon-1 {
+    margin-bottom: 8px;
+}
+
+.Card-n {
+    height: 200px;
+}
+
+.Card-n:hover {
+    box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.342);
+}
+
+.Card-n1 {
+    height: 200px;
+}
+
+.Card-n1:hover {
+    box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.342);
+}
+
+.conjunto-n {
+    padding-left: 50px;
+    padding-top: 10px;
+    margin-bottom: 200px;
+}
+
+.mapalink {
+    text-align: center;
+    
+}
+
+.card-2 {
+    height: 550px;
+    width: 800px;
+}
+
+.card-2:hover {
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.342);
+}
+
+a {
+    color: black;
+}
+
+@media screen and (max-width: 980px) {
+    .header {
+        height: 350px;
+        width: 100%;
+    }
+    .tituloimg {
+        height: 200px;
+        width: 200px;
+    }
+    .column-M {
+        width: 100%;
+        float: left;
+    }
+    .column-I {
+        width: 100%;
+        float: left;
+    }
+    .column-3 {
+        width: 100%;
+        float: left;
+    }
+    .column-2 {
+        width: 100%;
+        float: left;
+    }
+    .Card-n1 {
+        height: 240px;
+    }
+    .Card-n {
+        height: 240px;
+    }
+    .Card-1 {
+        height: 340px;
+    }
+}
+

@@ -1,0 +1,41 @@
+* {
+    margin: 0%;
+}
+
+.header {
+    background-image: url(../IMG/Londres.jpg);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.342);
+    text-align: center;
+}
+
+.tituloimg {
+    height: 400px;
+    width: 400px;
+}
+
+.titulos {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 25px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.imgs {
+    margin-left: 300px;
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
